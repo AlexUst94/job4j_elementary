@@ -15,10 +15,10 @@ public class MathCalculator {
     }
 
     public static double tri(double first, double second) {
-        return sum(first, second) +
-                multiply(first, second) +
-                difference(first, second) +
-                division(first, second);
+        return sum(first, second)
+                + multiply(first, second)
+                + difference(first, second)
+                + division(first, second);
     }
 
     public static void main(String[] args) {
