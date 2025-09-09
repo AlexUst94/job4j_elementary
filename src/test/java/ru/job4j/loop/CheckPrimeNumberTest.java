@@ -19,6 +19,7 @@ class CheckPrimeNumberTest {
     }
 
     @Test
+
     void when1ThenFalse() {
         int number = 1;
         boolean result = CheckPrimeNumber.check(number);

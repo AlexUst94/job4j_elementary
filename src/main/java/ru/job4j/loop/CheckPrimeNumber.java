@@ -6,7 +6,7 @@ public class CheckPrimeNumber {
             return false;
         }
         boolean example = true;
-        for (int i = 2; i < number; i++) {
+        for (int i = 2; i < number; i++ ) {
             if (number % i == 0) {
                 example = false;
                 break;
