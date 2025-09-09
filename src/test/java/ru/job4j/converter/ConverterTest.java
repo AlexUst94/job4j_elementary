@@ -6,14 +6,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.offset;
 
 class ConverterTest {
-
     @Test
     void whenConvert140RblThen1dot5555Euro() {
         double input = 140;
         double expected = 1.5555;
         double output = Converter.rubleToEuro(input);
         double precision = 0.0001;
-
 
         assertThat(output).isCloseTo(expected, offset(precision));
     }
